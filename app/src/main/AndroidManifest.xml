@@ -37,6 +37,20 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Gyro">
+            <intent-filter>
+                <action android:name="com.example.william.toolbox.Gyro" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BaroActivity">
+            <intent-filter>
+                <action android:name="com.example.william.toolbox.BaroActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

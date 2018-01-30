@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class HomeScreen extends AppCompatActivity {
 
-    Button ba, bm;
+    Button ba, bm, bg, bb;
 
 
     @Override
@@ -18,6 +18,8 @@ public class HomeScreen extends AppCompatActivity {
 
         ba = (Button)findViewById(R.id.accelbutton);
         bm = (Button)findViewById(R.id.micbutton);
+        bg = (Button)findViewById(R.id.gyrobutton);
+        bb = (Button)findViewById(R.id.barobutton);
 
         setOnClickListeners();
     }
@@ -34,6 +36,20 @@ public class HomeScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("com.example.william.toolbox.Micactivity");
+                startActivity(intent);
+            }
+        });
+        bg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.example.william.toolbox.Gyro");
+                startActivity(intent);
+            }
+        });
+        bb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.example.william.toolbox.BaroActivity");
                 startActivity(intent);
             }
         });
