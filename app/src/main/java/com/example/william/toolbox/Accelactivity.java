@@ -63,6 +63,7 @@ public class Accelactivity extends AppCompatActivity implements SensorEventListe
     private long initialTime;
     private long currentTime;
     private String ztestlabel,xtestlabel,ytestlabel;
+    //testes testes testes
 
     private LineChart mChart;
     private BarChart barChart;
