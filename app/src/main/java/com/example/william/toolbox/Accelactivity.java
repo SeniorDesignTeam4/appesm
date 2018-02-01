@@ -111,8 +111,7 @@ public class Accelactivity extends AppCompatActivity implements SensorEventListe
         barLabels.add("x");
         barLabels.add("y");
         barLabels.add("z");
-
-        //test comment
+        
         //customize
         //mChart.setDescription();
         //mChart.setNoDataText("No data");
