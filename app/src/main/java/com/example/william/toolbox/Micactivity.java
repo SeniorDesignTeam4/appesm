@@ -80,7 +80,7 @@ public class Micactivity extends AppCompatActivity {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        a = 0;
+        a == 0;
 
         while (isRunning) {
             myAudioRecorder.read(sData, 0, bufferElement2Rec);
