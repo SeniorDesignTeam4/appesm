@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Toolbox.iml" filepath="$PROJECT_DIR$/Toolbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kyle_version.iml" filepath="$PROJECT_DIR$/kyle_version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fart.iml" filepath="$PROJECT_DIR$/fart.iml" />
     </modules>
   </component>
 </project>
